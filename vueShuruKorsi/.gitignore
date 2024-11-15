@@ -1,0 +1,30 @@
+# Logs
+/vueShuruKorsi/logs
+/vueShuruKorsi/*.log
+/vueShuruKorsi/npm-debug.log*
+/vueShuruKorsi/yarn-debug.log*
+/vueShuruKorsi/yarn-error.log*
+/vueShuruKorsi/pnpm-debug.log*
+/vueShuruKorsi/lerna-debug.log*
+
+/vueShuruKorsi/node_modules
+/vueShuruKorsi/.DS_Store
+/vueShuruKorsi/dist
+/vueShuruKorsi/dist-ssr
+/vueShuruKorsi/coverage
+/vueShuruKorsi/*.local
+
+/vueShuruKorsi//cypress/videos/
+/vueShuruKorsi//cypress/screenshots/
+
+# Editor directories and files
+/vueShuruKorsi/.vscode/*
+/vueShuruKorsi/!.vscode/extensions.json
+/vueShuruKorsi/.idea
+/vueShuruKorsi/*.suo
+/vueShuruKorsi/*.ntvs*
+/vueShuruKorsi/*.njsproj
+/vueShuruKorsi/*.sln
+/vueShuruKorsi/*.sw?
+
+/vueShuruKorsi/*.tsbuildinfo
