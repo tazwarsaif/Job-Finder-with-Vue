@@ -17,7 +17,7 @@ const jobs = ref(jobData)
 <template>
     <section class="bg-blue-100 px-4 py-10">
         <div class="container-xl lg:container m:auto">
-            <h2 class="text-3xl font-bold text-green-500 mg-6 text-center">Browse Jobs</h2>
+            <h2 class="text-3xl font-bold text-green-500 mg-6 text-center mb-10">Browse Jobs</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <JobListingone v-for="job in jobs.slice(0, limit || jobs.length)" :key="job.id" :job="job" />
             </div>
